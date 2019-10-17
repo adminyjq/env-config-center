@@ -1,0 +1,10 @@
+decorate:
+  responseDataPlaceholder: RESPONSE_DATA_PLACEHOLDER
+  ignoredUris:
+    - /swagger-resources/**
+    - /v2/api-docs/**
+  shouldFilterContentType:
+    - application/json
+    - application/json;charset=UTF-8
+    - text/plain
+    - text/plain;charset=UTF-8

@@ -1,0 +1,13 @@
+mybatis-plus:
+  mapper-locations: classpath*:com/env/**/mapper/*.xml
+  global-config:
+    db-column-underline: false
+    refresh-mapper: true
+    id-type: 0
+pagehelper:
+  reasonable: true
+  supportMethodsArguments: true
+  pageSizeZero: true
+  params: count=countSql
+  auto-runtime-dialect: true
+  row-bounds-with-count: true
